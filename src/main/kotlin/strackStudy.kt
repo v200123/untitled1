@@ -38,9 +38,9 @@ fun main() {
 }
 
 
-class Stack() {
+open class Stack() {
 
-    private var mHeaderNode: Node? = null
+    var mHeaderNode: Node? = null
 
 
     fun pullNode(node: Node) {
